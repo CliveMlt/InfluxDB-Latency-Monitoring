@@ -31,7 +31,7 @@ This script monitors network latency and packet loss for a list of target IPs an
 # Configuration
 1. Create a Configuration File:
 Create a server_ips_config.txt file with the following format:
-   ```bash
+   ```r
     menu = CS2-SERVER
     title = CS2-SERVER
     host = 155.133.226.71
@@ -56,7 +56,7 @@ Run the script:
    ```
 
 # Example Output
-The script will log the latency and packet loss for each target IP to the InfluxDB database. Below is an example of the data in InfluxDB:
+The script will log the latency and packet loss for each target IP to the InfluxDB database. <br>Below is an example of the data in InfluxDB:
 ![InfluxDB Example](InfluxDB_example.png)
 
 
